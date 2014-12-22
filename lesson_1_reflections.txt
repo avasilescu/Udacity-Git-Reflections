@@ -1,0 +1,46 @@
+Question 1:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer 1:
+diff easily highlights the differences between the original and the modified file.
+
+Question 2:
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer 2:
+Having the entire history of a file allows the file to roll back to a non-bugged version multiple revisions ago. If something is deleted and then later on it is realized it is needed, it does not need to be recreated as it is in the version history.
+
+Question 3:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Answer 3:
+Pros:
+Can control size of changes by manually choosing
+Can control to limit commit to be one logical changes
+
+Cons:
+Prone to human error - forgot to save/commit
+
+Question 4:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer 4:
+Git requires multiple files to work together thus multiple files can be saved in one commit. Google Docs are typically fully independent and do not need to be saved together.
+
+Question 5:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer 5:
+git log shows all the commits done. Using the commit ids with git diff, one can figure out what was changed between the different commits.
+
+Question 6:
+How might using version control make you more confident to make changes to could break something?
+
+Answer 6:
+Using version control allows one to revert back to a known good configuration. Changes can be attempted to could break things, but it is easy enough to revert back to a known good state.
+
+Question 7:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer 7:
+I want to use Git to do version control on the Raspberry Pi python scripts I write.

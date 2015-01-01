@@ -9,3 +9,9 @@ How is the staging area different from the working directory and the repository?
 
 Answer 2:
 Staging area is a temporary save that will become the commit. The staging area allows the selection of specific files to be added to commit to allow for one logical change to occur.
+
+Question 3:
+How can you use the staging area to make sure you have one commit per logical change?
+
+Answer 3:
+Per logical change, you can add the files that have been modified for the change. This helps keep track of the different files and focused on one logical change.

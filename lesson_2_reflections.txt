@@ -33,3 +33,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Answer 6:
 The result of the two branches merging is that the master has the new coin feature in addition to the original game. The coin branch was brought back into the master as it is a new feature.
+
+Question 7:
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Answer 7:
+Pros are that the automatic merging saves time if it detects there are no conflicts. Cons are that it will detect a conflict and the user has to go through the code manually fixing the conflict.

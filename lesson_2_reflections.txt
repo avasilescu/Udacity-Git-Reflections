@@ -27,3 +27,9 @@ How do the diagrams help you visualize the branch structure?
 
 Answer 5:
 The diagrams are using to understand the relationships between the different branches and master. It will come in handy when merging one or multiple branches into master.
+
+Question 6:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer 6:
+The result of the two branches merging is that the master has the new coin feature in addition to the original game. The coin branch was brought back into the master as it is a new feature.

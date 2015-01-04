@@ -25,3 +25,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Answer 4:
 Being able to find if there will be a conflict merge before pushing it to GitHub. The conflict can be resolved locally prior to pushing it to GitHub.
+
+Question 5:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer 5:
+I would collaborate via a mix of a common server space and email. This method is easier as it has a low cost of entry (people don't need to know how to use Git or GitHub). What makes it harder is when there are multiple copies and multiple changes making merging difficult. People would not be able to work on the same file. If someone accidentally deletes a file, then hopefully there was a backup of that file somewhere, otherwise it may be lost.

@@ -19,3 +19,9 @@ Forks is a clone to an already existing repository where you want to keep all re
 Clone is a direct copy of an existing repository. This is used when you want to directly work on or use someone's repository. 
 
 Branch is a split in the repository from the master. It is useful for testing out experimental functions and not breaking the master which is production work.
+
+Question 4:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer 4:
+Being able to find if there will be a conflict merge before pushing it to GitHub. The conflict can be resolved locally prior to pushing it to GitHub.
